@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./login.css";
+import "./Login.css";
 import { AuthContext } from "../../context/AuthContest.jsx";
 import { BASE_URL } from "../../helper.js";
 
