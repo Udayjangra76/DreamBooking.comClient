@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import "./featured.css";
+import "./Featured.css";
 import useFetch from '../../hooks/useFetch';
 
 
