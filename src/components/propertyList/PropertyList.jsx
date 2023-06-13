@@ -1,7 +1,7 @@
 import React from 'react';
 import useFetch from "../../hooks/useFetch.js";
 // import axios from "axios"
-import "./propertyList.css";
+import "./PropertyList.css";
 const PropertyList = () => {
     const { data, loading, error } = useFetch("/hotels/countByType");
     const images = [
