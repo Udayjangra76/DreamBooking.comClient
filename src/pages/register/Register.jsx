@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./register.css";
+import "./Register.css";
 import { BASE_URL } from "../../helper.js";
 
 const Register = () => {
