@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 
 import Home from "./pages/home/Home.jsx";
-import List from "./pages/list/list.jsx";
+import List from "./pages/list/List.jsx";
 import Hotel from "./pages/hotel/Hotel.jsx";
 import Login from './pages/login/Login.jsx';
 import Register from './pages/register/Register.jsx';
