@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 
-import "./reserve.css";
+import "./Reserve.css";
 import useFetch from "../../hooks/useFetch";
 import { useContext, useState } from "react";
 import { SearchContext } from "../../context/SearchContext";
