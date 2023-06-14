@@ -17,7 +17,7 @@ const Navbar = () => {
                 {user ?
                     <div className="profile">
                         <img src="https://w0.peakpx.com/wallpaper/208/752/HD-wallpaper-whatsapp-dp-cartoon.jpg" alt="dp" className="dp" />
-                        {user.detail.username}
+                        {user.username}
                         <button onClick={handleClick} className="navButton">Logout</button>
 
                     </div>
